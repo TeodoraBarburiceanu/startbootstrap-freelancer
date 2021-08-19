@@ -5,7 +5,7 @@
   <groupId>org.pedrofigueiredo.archetypes</groupId>
   <artifactId>website-static-archetype</artifactId>
   <version>0.2.0.01-SNAPSHOT</version>
- <packaging>war</packaging>
+  <packaging>maven-archetype</packaging>
   
   <name>website-static-archetype</name>
   
@@ -31,15 +31,6 @@
           <artifactId>maven-release-plugin</artifactId>
           <version>2.0</version>
         </plugin>
-     <plugin>
- <artifactId>maven-war-plugin</artifactId>
- <version>2.2</version>
- <configuration>
-  <source>1.7</source>
-  <target>1.7</target>
-  <failOnMissingWebXml>false</failOnMissingWebXml>
- </configuration>
-</plugin>
       </plugins>
     </pluginManagement>
   </build>
@@ -63,4 +54,3 @@
     <url>https://github.com/pfig/archetype-website-static</url>
   </scm>
 </project>
-© 2021 GitHub, Inc.
